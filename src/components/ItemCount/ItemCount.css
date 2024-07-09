@@ -1,0 +1,14 @@
+#div1{
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+}
+
+.btnCount{
+    padding: 1px 25px;
+    margin: 10px;
+    background-color: #ececec;
+    color: #000;
+    border-radius: 5px;
+    border-color: #fe8801;
+    
+}
