@@ -1,8 +1,6 @@
 .ItemListContainer{
-    border: 1.5px solid #1c1c1c;
     border-radius: 5px;
-    margin: 2rem 3rem;
-    padding: 1rem;
+    margin: 1rem auto;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -11,7 +9,7 @@
 }
 
 .title{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .d-flex{

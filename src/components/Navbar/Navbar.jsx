@@ -20,12 +20,6 @@ const Navbar = ({ title}) => {
         {categories.map((element, index) => {
             return <NavbarLink key={index} category={element} />
         })}
-
-        {/* <a className="navItem" href="#">{categories[0]}</a>
-        <a className="navItem" href="#">{categories[1]}</a>
-        <a className="navItem" href="#">{categories[2]}</a>
-        <a className="navItem" href="#">{categories[3]}</a>
-        <a className="navItem" href="#">{categories[4]}</a> */}
         </nav>
         </div>
 

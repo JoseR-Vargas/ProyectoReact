@@ -1,4 +1,7 @@
 .Footercontainer{
     padding: 3rem;
     background-color: #fe8801;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    margin: 0.4rem 0.2rem;
 }
