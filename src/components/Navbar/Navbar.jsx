@@ -11,11 +11,12 @@ const Navbar = ({ title}) => {
         <nav>
         <div>{title}</div>
 
-       
-
         <div className="navContainer">
+
         <Link to="/"><img className="logo" src={LogoEcommerce} alt="logo" /></Link>
         <nav className="navItems">  
+
+        <button className="btnabrir">abrir</button>
 
         {categories.map((element, index) => {
             return <NavbarLink key={index} category={element} />
@@ -23,8 +24,8 @@ const Navbar = ({ title}) => {
         </nav>
         </div>
 
-       
         <CartWidget/>
+
         </nav>
     );
 }

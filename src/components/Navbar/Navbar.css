@@ -27,8 +27,28 @@
     border-radius: 15px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 650px){
-    .navContainer{
-        
-    }
+.btnabrir{
+    display: none;
+}
+
+@media only screen and (max-width: 550px){
+
+/* .navItem{
+    display: none;
+}
+.buttonAbrir{
+    display: flex;
+    display: block;
+    align-items: center
+}  */
+
+.navContainer{
+    flex-direction: column;
+    align-items: center;
+}
+
+.navItems{
+    flex-direction: column;
+}
+ 
 }
