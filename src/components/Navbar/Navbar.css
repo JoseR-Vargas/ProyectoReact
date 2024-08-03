@@ -8,15 +8,15 @@
     padding: 1rem;
     margin: 0;
     text-decoration: none;
-    color: #000;
+    color: #ececec;
     font-size: 18px;
 }
 
 .navContainer{
-    background-color: #fe8801;
+    background-color: #1c1c1c;
     display: flex;
     justify-content: space-between;
-    border: 1px solid #1c1c1c;
+    
     border-radius: 5px;
     margin: 0.4rem 0.2rem;
 }
