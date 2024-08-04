@@ -15,7 +15,7 @@ const Item = ({ product }) => {
                 </div>
                 <div className="d-flex justify-content-center w-100">
                     <Link to={`/product/${product.id}`}>
-                    <Button style={{ backgroundColor: '#1c1c1c', borderColor: '#1c1c1c', marginTop:'0.2rem' }}>Details</Button>
+                    <Button style={{ backgroundColor: '#3e721d', borderColor: '#3e721d', marginTop:'0.2rem' }}>Details</Button>
                     </Link>
                 </div>
             </Card.Body>

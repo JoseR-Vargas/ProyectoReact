@@ -14,7 +14,7 @@ const ItemDetail = ({product})=> {
         <Card.Title>{price}</Card.Title>
         <Card.Text>{description}</Card.Text>
         <Card.Text>Quedan {stock} unidades</Card.Text>
-        <Button style={{ backgroundColor: '#fe8801', borderColor: '#1c1c1c' }}>Comprar</Button>
+        <Button style={{ backgroundColor: '#3e721d', borderColor: '#3e721d' }}>Comprar</Button>
       </Card.Body>
     </Card>
   );

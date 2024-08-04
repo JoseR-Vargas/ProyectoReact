@@ -13,7 +13,7 @@
 }
 
 .navContainer{
-    background-color: #1c1c1c;
+    background-color: #3e721d;
     display: flex;
     justify-content: space-between;
     
@@ -26,6 +26,7 @@
     margin: 10px 20px;
     border-radius: 15px;
 }
+
 
 .btnabrir{
     display: none;
