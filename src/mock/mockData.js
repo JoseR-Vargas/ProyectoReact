@@ -100,7 +100,7 @@ export const items = [
         price: 50,
         stock: 47,
         category: ["Saludables"],
-        image: "https://res.cloudinary.com/dyg0knk2o/image/upload/v1721840171/AlmohaditasDeAvellana_gcxhzj.webp",
+        image: "https://res.cloudinary.com/dyg0knk2o/image/upload/v1722783792/AlmohaditasDeAvellana-removebg-preview_ywarqz.png",
 
     },
     {
@@ -110,7 +110,7 @@ export const items = [
         price: 130,
         stock: 107,
         category: ["Saludables"],
-        image: "https://res.cloudinary.com/dyg0knk2o/image/upload/v1721840137/Almendras_gds7ol.webp",
+        image: "https://res.cloudinary.com/dyg0knk2o/image/upload/v1722783736/Almendras-removebg-preview_rw1efv.png",
 
     },
 ]
