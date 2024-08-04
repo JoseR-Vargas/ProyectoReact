@@ -7,7 +7,7 @@ const ItemDetail = ({product})=> {
      const {name, description, price, image, stock} = product
 
     return(
-      <Card style={{ width: '18rem', margin: '2rem auto', padding: '1rem' }}>
+      <Card style={{ width: '18rem', margin: '2rem auto', padding: '1rem', backgroundColor: '#ececec' }}>
       <Card.Img variant="top" src={image} />
       <Card.Body className='text-center'>
       <Card.Text >{name}</Card.Text>
