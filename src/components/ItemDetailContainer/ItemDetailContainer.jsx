@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
-import { getProductById } from "../../utils/fetchData";
 import { Spinner } from "../spinner/spinner";
 import ItemDetail from "../ItemDetail/ItemDetail";
-
+import { db } from "../../firebase/dbConnection";
+import { collection, getDoc, doc } from "firebase/firestore";
 
 const ItemDetailContainer = ()=> {
 
@@ -13,27 +13,23 @@ const ItemDetailContainer = ()=> {
 
 
     useEffect(()=> { 
-        
-        setLoading(true);
-        getProductById(id)
-        .then((res)=>{
-            setProduct(res)
-        })
-        .catch((err)=>{
-            console.log(err);
-        })
-        .finally(()=>{
-            setLoading(false);
-        })
+    setLoading(true)
+    const productCollection = collection(db, "productos")
+    const refDoc = doc(productCollection, id)
 
-        return () => {
-            console.log("se desmonto el componente");
-        }
+    getDoc(refDoc)
+    .then((doc)=>{
+        setProduct({id: doc.id, ...doc.data()})
+        setLoading(false)
+    })
+    .catch((error)=>{
+        setLoading(false);
+        console.log("Error getting documents: ", error);
+    })
 },[id])
 
     return(
         <main>
-            <div className="text-center">ItemDetailContainer</div>
          {loading 
             ? <Spinner />
             : <ItemDetail product={product}/>}

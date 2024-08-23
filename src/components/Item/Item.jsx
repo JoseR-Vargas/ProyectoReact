@@ -17,7 +17,6 @@ const Item = ({ product }) => {
 
     <div className="d-flex flex-wrap flex-column align-items-center text-center" style={{ flex: '1 1 auto' }}>
     <Card.Title>{product.name}</Card.Title>
-    <Card.Text>{product.description}</Card.Text>
     <Card.Text>$ {product.price}</Card.Text>
     </div>
 

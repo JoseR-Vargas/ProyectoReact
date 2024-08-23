@@ -1,8 +1,12 @@
 import "./CartWidget.css"
+import { useCartContext } from "../../context/CartContext"
 
 const CartWidget = () => {
+
+    const {qtyItems} =useCartContext ();
+
     return(
-        <div className="carrito"> 5 🛒 Car</div>
+        <div className="carrito"> {qtyItems} 🛒 Car</div>
     )
 }
 

@@ -4,7 +4,6 @@ export const categories = ["Frutas", "Condimentos", "Almacen", "Saludables"]
 export const items = [
 
     {
-        id: 1,
         name: "Repollo Morado",
         description:"Nacional",
         price: 99,
@@ -14,7 +13,6 @@ export const items = [
 
     },
     {
-        id: 2,
         name: "Repollo Blanco",
         description:"Nacional",
         price: 99,
@@ -24,7 +22,6 @@ export const items = [
 
     },
     {
-        id: 3,
         name: "Pimiento Amarillo",
         description:"Nacional",
         price: 250,
@@ -34,7 +31,6 @@ export const items = [
 
     },
     {
-        id: 4,
         name: "Cebolla Grande",
         description:"Nacional",
         price: 120,
@@ -44,7 +40,6 @@ export const items = [
 
     },
     {
-        id: 5,
         name: "Frutilla",
         description:"Nacional",
         price: 250,
@@ -54,7 +49,6 @@ export const items = [
 
     },
     {
-        id: 6,
         name: "Ajo Molido",
         description:"Nacional",
         price: 89,
@@ -64,7 +58,6 @@ export const items = [
 
     },
     {
-        id: 7,
         name: "Azafran",
         description:"Nacional",
         price: 100,
@@ -74,7 +67,6 @@ export const items = [
 
     },
     {
-        id: 8,
         name: "Aceite Natura",
         description:"Nacional",
         price: 50,
@@ -84,7 +76,6 @@ export const items = [
 
     },
     {
-        id: 9,
         name: "Azucar Ledesma",
         description:"Nacional",
         price: 40,
@@ -94,7 +85,6 @@ export const items = [
 
     },
     {
-        id: 10,
         name: "Almohaditas Mix",
         description:"Nacional",
         price: 50,
@@ -104,7 +94,6 @@ export const items = [
 
     },
     {
-        id: 11,
         name: "Almendras",
         description:"Nacional",
         price: 130,

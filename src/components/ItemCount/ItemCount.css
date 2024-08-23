@@ -1,14 +1,13 @@
-#div1{
-    border: 1px solid #1c1c1c;
-    border-radius: 5px;
-}
 
 .btnCount{
-    padding: 1px 25px;
-    margin: 10px;
+    padding: 0.5px 16px;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
     background-color: #ececec;
-    color: #000;
+    color: #3e721d;
     border-radius: 5px;
-    border-color: #fe8801;
+    border-color: #3e721d;
     
 }
