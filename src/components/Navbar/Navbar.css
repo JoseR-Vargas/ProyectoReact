@@ -33,14 +33,14 @@
 
 @media only screen and (max-width: 550px){
 
-/* .navItem{
+.navItem{
     display: none;
 }
 .buttonAbrir{
     display: flex;
     display: block;
     align-items: center
-}  */
+} 
 
 .navContainer{
     flex-direction: column;

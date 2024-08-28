@@ -96,7 +96,7 @@ const Cart = () => {
 
      return (
       <>
-   <Table striped bordered hover>
+   <Table className="table-responsive" striped bordered hover>
       <thead>
          <tr>
             <th>#</th>
